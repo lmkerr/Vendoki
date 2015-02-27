@@ -37,6 +37,14 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Vendoki.API\Vendoki.API.csproj">
+      <Name>Vendoki.API</Name>
+      <Project>{06cfe981-0146-473c-af28-f30ac1def38f}</Project>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <RoleName>Vendoki.API</RoleName>
+      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+    </ProjectReference>
     <ProjectReference Include="..\Vendoki.Web\Vendoki.Web.csproj">
       <Name>Vendoki.Web</Name>
       <Project>{61d7324f-b89f-451f-84c6-9c8aa28720f0}</Project>
@@ -47,9 +55,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Vendoki.APIContent\" />
     <Folder Include="Vendoki.WebContent\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Vendoki.APIContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Vendoki.WebContent\diagnostics.wadcfg">
       <SubType>Content</SubType>
     </Content>
