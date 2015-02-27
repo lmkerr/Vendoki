@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C18CE95-45A8-4607-9BFF-0031391E5B62}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendoki.Web", "Vendoki.Web\Vendoki.Web.csproj", "{61D7324F-B89F-451F-84C6-9C8AA28720F0}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Vendoki.Azure", "Vendoki.Azure\Vendoki.Azure.ccproj", "{E2B73E76-B05B-43F2-A4EC-08D779E3D466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61D7324F-B89F-451F-84C6-9C8AA28720F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D7324F-B89F-451F-84C6-9C8AA28720F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D7324F-B89F-451F-84C6-9C8AA28720F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D7324F-B89F-451F-84C6-9C8AA28720F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B73E76-B05B-43F2-A4EC-08D779E3D466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B73E76-B05B-43F2-A4EC-08D779E3D466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B73E76-B05B-43F2-A4EC-08D779E3D466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B73E76-B05B-43F2-A4EC-08D779E3D466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
