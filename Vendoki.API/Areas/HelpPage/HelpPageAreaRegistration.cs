@@ -1,5 +1,6 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using Vendoki.API.Areas.HelpPage.App_Start;
 
 namespace Vendoki.API.Areas.HelpPage
 {

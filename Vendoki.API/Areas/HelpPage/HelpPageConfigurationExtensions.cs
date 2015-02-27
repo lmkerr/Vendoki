@@ -13,6 +13,7 @@ using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using Vendoki.API.Areas.HelpPage.ModelDescriptions;
 using Vendoki.API.Areas.HelpPage.Models;
+using Vendoki.API.Areas.HelpPage.SampleGeneration;
 
 namespace Vendoki.API.Areas.HelpPage
 {
